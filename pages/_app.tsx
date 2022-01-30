@@ -49,9 +49,9 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
         <script
           async
           defer
-          data-website-id="b7b30083-9b36-4db4-b66d-b840101cd709"
-          src="https://umami-alpha-pink.vercel.app/umami.js"
-        />
+          data-website-id="793b1d37-a4fe-4d54-872d-9724e172c1f1"
+          src="https://portfolio-umami.vercel.app/umami.js"
+        ></script>
       </Head>
       <Component {...pageProps} />
     </>
