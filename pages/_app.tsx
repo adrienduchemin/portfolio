@@ -6,13 +6,13 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <>
       <Head>
-        <title>Lais Beunardeau</title>
+        <title>Laïs Beunardeau</title>
         <meta name="description" content="Modern Jazz dancer" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="fr_FR" />
-        <meta property="og:site_name" content="Lais Beunardeau" />
+        <meta property="og:site_name" content="Laïs Beunardeau" />
         {/* bewteen 60 and 90 characters but not longer than 100 */}
-        <meta property="og:title" content="Lais Beunardeau" />
+        <meta property="og:title" content="Laïs Beunardeau" />
         <meta property="og:description" content="Modern Jazz dancer" />
         <meta
           property="og:image"

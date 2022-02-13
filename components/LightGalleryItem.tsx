@@ -27,7 +27,7 @@ export default function LightGalleryItem({
       data-src={!video ? photo.url : undefined}
       data-video={getVideoParams(video)}
       data-poster={video ? photo.url : undefined}
-      data-sub-html={`<h4>© ${photo.copyright ?? 'Lais Beunardeau'}</h4>`}
+      data-sub-html={`<h4>© ${photo.copyright ?? 'Laïs Beunardeau'}</h4>`}
     >
       {children}
     </div>
