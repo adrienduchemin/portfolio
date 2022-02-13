@@ -7,7 +7,7 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     <>
       <Head>
         <title>Lais Beunardeau</title>
-        <meta name="description" content="Lais Beunardeau portfolio" />
+        <meta name="description" content="Modern Jazz dancer" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:site_name" content="Lais Beunardeau" />
@@ -16,12 +16,9 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
         <meta property="og:description" content="Modern Jazz dancer" />
         <meta
           property="og:image"
-          content="https://cocky-noyce-2131f3.netlify.app/logo.jpg"
+          content="https://laisbeunardeau.art/logo.jpg"
         />
-        <meta
-          property="og:url"
-          content="https://cocky-noyce-2131f3.netlify.app"
-        />
+        <meta property="og:url" content="https://laisbeunardeau.art" />
         <link rel="icon" href="/favicon.ico" />
         <link
           type="text/css"
@@ -43,7 +40,11 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
           href="https://unpkg.com/video.js/dist/video-js.min.css"
           rel="stylesheet"
         />
-        <script src="https://unpkg.com/video.js/dist/video.min.js" async />
+        <script
+          src="https://unpkg.com/video.js/dist/video.min.js"
+          async
+          defer
+        />
         {/* <script src="/picturefill.min.js" async /> */}
         {/* <script src="/youtube.min.js" async /> */}
         <script
