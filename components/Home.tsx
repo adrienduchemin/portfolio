@@ -102,7 +102,23 @@ export default function Home({
             />
           </a>
         </div>
+
+        <a href="https://effervescent-melomakarona-2491a8.netlify.app/">
+          <button
+            type="button"
+            style={{
+              borderRadius: '10px',
+              padding: '20px',
+              color: 'white',
+              backgroundColor: 'transparent',
+              cursor: 'pointer',
+            }}
+          >
+            Mon site
+          </button>
+        </a>
       </div>
+
       <Arrow fullpage={fullpage} />
     </>
   );

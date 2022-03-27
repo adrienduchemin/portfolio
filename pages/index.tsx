@@ -16,12 +16,7 @@ interface IndexProps {
 }
 
 export default function Index(props: IndexProps): JSX.Element {
-  return (
-    <>
-      <p>TESTTTTT</p>
-      <FullPage {...props} />
-    </>
-  );
+  return <FullPage {...props} />;
 }
 
 export const getStaticProps: GetStaticProps<IndexProps> = async () => {
